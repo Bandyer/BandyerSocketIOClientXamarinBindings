@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Bandyer.Socket.IO.Client</id>
+    <version>1.0.9</version>
+    <title>Bandyer.Socket.IO.Client</title>
+    <authors>Bandyer</authors>
+    <owners>Bandyer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>bandyer,android,socket.io,socket,client,socker.io-client,xamarin</tags>
+    <license type="expression">Apache-2.0</license>
+    <copyright>Copyright © Bandyer</copyright>
+    <description>Bandyer's socket.io-client android bindings for Xamarin</description>
+    <summary>Bandyer's socket.io-client android bindings for Xamarin</summary>
+    <projectUrl>https://github.com/Bandyer/BandyerSocketIOClientXamarinBindings</projectUrl>
+    <dependencies>
+      <group targetFramework="MonoAndroid">
+         <dependency id="Engine.IO.Client" version="1.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="./bin/Release/Bandyer.Socket.IO.Client.*" target="lib/MonoAndroid" />
+  </files>
+</package>
