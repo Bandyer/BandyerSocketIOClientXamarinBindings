@@ -132,15 +132,15 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Engine.IO.Client">
-      <Version>1.0.0</Version>
-    </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedJar Include="Jars\socket.io-client.jar" />
   </ItemGroup>
   <ItemGroup>
     <JavaDocIndex Include="Javadoc\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SocketIO.Engine.IO.Client">
+      <Version>1.0.0</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
